@@ -1,15 +1,12 @@
 #include <iostream>
 #include "Renderer.h"
 
-namespace DagEn
+Dagon::Renderer::Renderer()
 {
-    Renderer::Renderer()
-    {
-        std::cout << "Created" << std::endl;
-    }
+    std::cout << "Created" << std::endl;
+}
 
-    Renderer::~Renderer()
-    {
-        std::cout << "Destroyed" << std::endl;
-    }
-} // namespace DagEn
+Dagon::Renderer::~Renderer()
+{
+    std::cout << "Destroyed" << std::endl;
+}

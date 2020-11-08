@@ -2,6 +2,6 @@
 
 int main(int argc, char const *argv[])
 {
-    DagEn::Renderer renderer;
+    Dagon::Renderer renderer;
     return 0;
 }
